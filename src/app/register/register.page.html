@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+  
+ 
+
+<ion-content>
+    <p><b>Username:</b>
+      <ion-input placeholder="Username" [(ngModel)]="user"></ion-input>
+      </p>
+    
+      <p><b>Email:</b>
+        <ion-input placeholder="Email" [(ngModel)]="email"></ion-input>
+      </p>
+    
+      <p><b>Phone:</b>
+        <ion-input placeholder="000-000-0000" [(ngModel)]="ph"></ion-input>
+      </p>
+    
+      <p><b>Date of Birth:</b>
+        <ion-input placeholder="MM-DD-YYYY" [(ngModel)]="birth"></ion-input>
+      </p>
+      
+      <p><b>Password:</b>
+        <ion-input placeholder="Password" [(ngModel)]="pw"></ion-input>
+      </p>
+      
+      <ion-button (click)="navToHome()">Register</ion-button>
+        
+    
+</ion-content>

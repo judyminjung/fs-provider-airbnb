@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>New Listing</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <p><b>Location</b>
+      <ion-input placeholder="Location" [(ngModel)]="loc"></ion-input>
+    </p>
+    
+    <p><b>Description</b>
+      <ion-input placeholder="Type Here" [(ngModel)]="desc"></ion-input>
+    </p>
+    
+    <p><b>Price Per Night</b>
+      <ion-input placeholder="$$$" [(ngModel)]="$"></ion-input>
+    </p>
+      
+    <ion-button (click)="navToRentals">Upload</ion-button>
+        
+</ion-content>
